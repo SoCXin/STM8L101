@@ -20,6 +20,8 @@ STM8L低功耗入门级系列STM8L101
     * [STVD工程资源](src/STVD)
     * [SDCC工程资源](src/SDCC)
     * [IAR工程资源](src/IAR)
+    * [demo资源](src/demo)
+* [bootloader](bootloader/)
 
 ### [选型建议](https://github.com/sochub/STM8L10)
 
