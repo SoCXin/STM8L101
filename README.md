@@ -19,12 +19,13 @@ STM8L低功耗入门级系列STM8L101
 * [资源](src/)
     * [STVD工程资源](src/STVD)
     * [SDCC工程资源](src/SDCC)
+    * [IAR工程资源](src/IAR)
 
 ### [选型建议](https://github.com/sochub/STM8L10)
 
-STM8L10x是STM8L系列低端产品，不够出众也不够典型
+STM8L10x是STM8L系列低端产品，产品本身不够出众也不够典型，尚没有搞清楚定位。
 
-可替换的方案包括 [STM8L0x](https://github.com/sochub/STM8L10) 和 [STM8L15x](https://github.com/sochub/STM8L15) 
+可替换的方案包括 [STM8L0x](https://github.com/sochub/STM8L0) 和 [STM8L15x](https://github.com/sochub/STM8L15) 
 
 ##  [SoC资源平台](http://www.qitas.cn)  
 
