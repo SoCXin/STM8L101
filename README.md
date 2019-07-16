@@ -21,11 +21,11 @@ AWU（Auto Wakeup Unit）的时钟源是独立的LSI（Low Speed Internal Clock�
 ### [收录资源](https://github.com/sochub/STM8L101)
 
 * [文档](docs/)
+* [bootloader](bootloader/)
 * [资源](src/)
     * [STVD工程资源](src/STVD)
     * [SDCC工程资源](src/SDCC)
     * [IAR工程资源](src/IAR)
-    * [demo资源](src/demo)
 
 ### [关联资源](https://github.com/sochub)
 
@@ -33,7 +33,7 @@ AWU（Auto Wakeup Unit）的时钟源是独立的LSI（Low Speed Internal Clock�
 
 ### [选型建议](https://github.com/sochub)
 
-[STM8L101](https://github.com/sochub/STM8L101)可替换的方案包括 [STM8L051](https://github.com/sochub/STM8L051) 和 [STM8L151](https://github.com/sochub/STM8L151) 
+[STM8L101](https://github.com/sochub/STM8L101)的可替换的方案包括 [STM8L051](https://github.com/sochub/STM8L051) 和 [STM8L151](https://github.com/sochub/STM8L151) 
 
 [STM8L101](https://github.com/sochub/STM8L101)和[STM8L151](https://github.com/sochub/STM8L151)对比：
 
