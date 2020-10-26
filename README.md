@@ -8,13 +8,13 @@
 
 ## [STM8L101描述](https://github.com/SoCXin/STM8L101/wiki)
 
-[STM8L101](https://github.com/SoCXin/STM8L101) 最低功耗模式：0.30 uA,动态运行模式：150 uA/MHz
+[STM8L101](https://github.com/SoCXin/STM8L101) 最低功耗模式0.30 uA,动态运行模式150 uA/MHz
 
 [![sites](docs/STM8L101.png)](https://www.st.com/en/microcontrollers-microprocessors/STM8L101.html)
 
-STM8L101只有HSI和LSI，HSI做为主时钟，LSI时钟的频率也从128Khz变成了38Khz，AWU功能做定时唤醒需要调整延时时间的设置，外设的时钟需要手动开启
+[STM8L101](https://github.com/SoCXin/STM8L101)只有HSI和LSI，LSI钟的频率也从128Khz变成了38Khz，AWU功能做定时唤醒需要调整延时时间的设置，外设的时钟需要手动开启
 
-AWU（Auto Wakeup Unit）的时钟源是独立的LSI（Low Speed Internal Clock），datasheet显示LSI一致性差（25KHz到75KHz不等）。
+AWU（Auto Wakeup Unit）的时钟源是独立的LSI(一致性差,25KHz到75KHz不等)。
 
 ### [收录资源](https://github.com/SoCXin/STM8L101)
 
