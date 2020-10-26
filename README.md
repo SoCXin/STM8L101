@@ -1,45 +1,39 @@
-﻿# [STM8L101](https://github.com/sochub/STM8L101) 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 厂商：[ST](https://github.com/sochub/ST) 
-#### 架构：[STM8](https://github.com/sochub/STM8)
-#### 收录芯片定级：[Level](https://github.com/sochub/Level)
+﻿# [STM8L101](https://github.com/SoCXin/STM8L101)
 
-## [STM8L101描述](https://github.com/sochub/STM8L101/wiki) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-[STM8L101](https://github.com/sochub/STM8L101) 系列
+#### [Vendor](https://github.com/SoCXin/Vendor)：[ST](https://github.com/SoCXin/ST)
+#### [Core](https://github.com/SoCXin/STM8)：[STM8](https://github.com/SoCXin/STM8)
+#### [Level](https://github.com/SoCXin/Level)：16MHz
 
-* 最低功耗模式：0.30 uA
-* 动态运行模式：150 uA/MHz
+## [STM8L101描述](https://github.com/SoCXin/STM8L101/wiki)
 
-[![sites](SoC/STM8L101.png)](https://www.st.com/en/microcontrollers-microprocessors/STM8L101.html) 
+[STM8L101](https://github.com/SoCXin/STM8L101) 最低功耗模式：0.30 uA,动态运行模式：150 uA/MHz
 
+[![sites](docs/STM8L101.png)](https://www.st.com/en/microcontrollers-microprocessors/STM8L101.html)
 
 STM8L101只有HSI和LSI，HSI做为主时钟，LSI时钟的频率也从128Khz变成了38Khz，AWU功能做定时唤醒需要调整延时时间的设置，外设的时钟需要手动开启
 
 AWU（Auto Wakeup Unit）的时钟源是独立的LSI（Low Speed Internal Clock），datasheet显示LSI一致性差（25KHz到75KHz不等）。
 
-### [收录资源](https://github.com/sochub/STM8L101)
+### [收录资源](https://github.com/SoCXin/STM8L101)
 
 * [文档](docs/)
-* [bootloader](bootloader/)
 * [资源](src/)
-    * [STVD工程资源](src/STVD)
-    * [SDCC工程资源](src/SDCC)
-    * [IAR工程资源](src/IAR)
 
-### [关联资源](https://github.com/sochub)
+#### [开发工具](https://github.com/SoCXin)
 
-* [SDCC编译](https://github.com/sochub/sdcc)
+* [STM8CubeMX](https://www.st.com/zh/development-tools/stm8cubemx.html)
+* [SDCC编译器](http://sdcc.sourceforge.net/)
 
-### [选型建议](https://github.com/sochub)
+### [选型建议](https://github.com/SoCXin)
 
-[STM8L101](https://github.com/sochub/STM8L101)的可替换的方案包括 [STM8L051](https://github.com/sochub/STM8L051) 和 [STM8L151](https://github.com/sochub/STM8L151) 
+[STM8L101](https://github.com/SoCXin/STM8L101)相比[STM8S103](https://github.com/SoCXin/STM8S103)供电电压范围更宽更低功耗，裁减了一些外设(WWDG和ADC被裁减)
 
-[STM8L101](https://github.com/sochub/STM8L101)和[STM8L151](https://github.com/sochub/STM8L151)对比：
+[STM8L101](https://github.com/SoCXin/STM8L101)的可替换的方案包括 [STM8L052](https://github.com/SoCXin/STM8L052) 和 [STM8L152](https://github.com/SoCXin/STM8L152)
 
-[![sites](SoC/vsSTM8L15X.png)](http://www.qitas.cn) 
+[STM8L101](https://github.com/SoCXin/STM8L101)和[STM8L151](https://github.com/SoCXin/STM8L151)
 
-[STM8L101](https://github.com/sochub/STM8L101)和[STM8S103](https://github.com/sochub/STM8S103)对比：供电电压范围更宽功耗更低，裁减了一些外设(WWDG和ADC被裁减)
+[![sites](docs/vsSTM8L15X.png)](https://github.com/SoCXin)
 
-##  [SoC资源平台](http://www.qitas.cn)  
-
+###  [SoC芯平台](http://www.SoC.Xin)
