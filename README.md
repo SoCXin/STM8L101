@@ -2,38 +2,36 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[ST](https://github.com/SoCXin/ST)
-#### [Core](https://github.com/SoCXin/STM8)：[STM8](https://github.com/SoCXin/STM8)
-#### [Level](https://github.com/SoCXin/Level)：16MHz
+* [ST](https://www.st.com/zh/): [STM8](https://github.com/SoCXin/8051)
+* [L1R2](https://github.com/SoCXin/Level): 16 MHz
 
-## [STM8L101描述](https://github.com/SoCXin/STM8L101/wiki)
+## [简介](https://github.com/SoCXin/STM8L101/wiki)
 
-[STM8L101](https://github.com/SoCXin/STM8L101) 最低功耗模式0.30 uA,动态运行模式150 uA/MHz
+[STM8L101](https://github.com/SoCXin/STM8L101)超值超低功耗微控制器为成本敏感型应用提供了最佳性价比。 超值系列具有与STM8L151/152系列类似的内核性能和外设集，优化了特性和配置，从而能够达到预算价格。
 
-[![sites](docs/STM8L101.png)](https://www.st.com/en/microcontrollers-microprocessors/STM8L101.html)
+STM8L基于8位STM8内核，与STM32L系列一样采用了专有超低漏电流工艺，利用最低功耗模式实现了超低功耗（0.30 uA）
 
-[STM8L101](https://github.com/SoCXin/STM8L101)只有HSI和LSI，LSI钟的频率也从128Khz变成了38Khz，AWU功能做定时唤醒需要调整延时时间的设置，外设的时钟需要手动开启
 
-AWU（Auto Wakeup Unit）的时钟源是独立的LSI(一致性差,25KHz到75KHz不等)。
+[![sites](docs/STM8L101.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm8l101.html)
 
-### [收录资源](https://github.com/SoCXin/STM8L101)
+### 关键特性
 
-* [文档](docs/)
-* [资源](src/)
+* 1.5 Kbytes of SRAM
 
-#### [开发工具](https://github.com/SoCXin)
 
-* [STM8CubeMX](https://www.st.com/zh/development-tools/stm8cubemx.html)
-* [SDCC编译器](http://sdcc.sourceforge.net/)
+
+### [资源收录](https://github.com/SoCXin)
+
+* [参考资源](src/)
+* [相关文档](docs/)
+* [典型应用](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
 [STM8L101](https://github.com/SoCXin/STM8L101)相比[STM8S103](https://github.com/SoCXin/STM8S103)供电电压范围更宽更低功耗，裁减了一些外设(WWDG和ADC被裁减)
 
-[STM8L101](https://github.com/SoCXin/STM8L101)的可替换的方案包括 [STM8L052](https://github.com/SoCXin/STM8L052) 和 [STM8L152](https://github.com/SoCXin/STM8L152)
-
-[STM8L101](https://github.com/SoCXin/STM8L101)和[STM8L151](https://github.com/SoCXin/STM8L151)
+#### [STM8L101](https://github.com/SoCXin/STM8L101) VS [STM8L151](https://github.com/SoCXin/STM8L151)
 
 [![sites](docs/vsSTM8L15X.png)](https://github.com/SoCXin)
 
-###  [SoC芯平台](http://www.SoC.Xin)
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
